@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/teamCount"
+            android:layout_gravity="center"
+            android:inputType="text"/>
+    <ListView
+            android:layout_width="fill_parent"
+            android:layout_height="375dp"
+            android:id="@android:id/list"/>
+    <Button
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="Make Teams"
+            android:id="@+id/buttonMakeTeams"
+            android:layout_gravity="center"
+            android:textSize="24dp"/>
+
+</LinearLayout>

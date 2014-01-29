@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/enterName"
+            android:layout_gravity="center"
+            android:inputType="text"/>
+
+    <Spinner
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/enterRank"
+            android:entries="@array/ranks"
+            />
+
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="DELETE"
+            android:id="@+id/buttonDeletePlayer"
+            android:layout_gravity="center"
+            android:textSize="18dp"
+            android:layout_marginTop="100dp"/>
+
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="DONE"
+            android:id="@+id/buttonAddPlayerDone"
+            android:layout_gravity="center"
+            android:textSize="18dp"/>
+</LinearLayout>
